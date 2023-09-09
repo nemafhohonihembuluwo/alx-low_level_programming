@@ -1,18 +1,17 @@
 #include <stdio.h>
-
 /**
- * main - Prog Entry point
- * Return: Always 0 (Success)
+ * main - prog Entry point
+ * Return: Always 0 (Success
  */
+
 int main(void)
 {
+	int a;
 
-	int n;
-
-	for (n = 0; n < 10; n++)
+	for (a = 0; a < 10; a++)
 	{
 		putchar(a + '0');
-		if (n < 9)
+		if (a < 9)
 		{
 			putchar(',');
 			putchar(' ');
